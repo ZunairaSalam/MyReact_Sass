@@ -1,0 +1,53 @@
+.header{
+display: flex;
+flex-flow: row wrap;
+align-items: flex-start;
+
+}
+.searchbar{
+  width: 8em;
+}
+//override user agent stylesheet property of margin
+
+.header-left a{  
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.header-left p{
+  display: inline;
+  padding-left: 0.5rem;
+  color: black;
+}
+
+.logo-style{
+  width: 1.5rem;
+  height: 1rem;
+}
+.icon-style{
+  width: 1.5rem;
+  height: 1.3rem;
+}
+.header-center{
+  display: flex;
+  margin: auto;
+}
+.header-right{
+  margin-left: auto;
+}
+.list-horizontal{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display:inline;
+}
+.list-horizontal li{
+  float: left;
+  padding-left: 1rem;
+}
+.list-horizontal li a{
+  
+  color: #737373;
+}

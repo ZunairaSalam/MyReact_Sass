@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  margin: 1.25%;
+}
+.item1{grid-area: sidebar;}
+.item2{grid-area: content;
+background-color: #f2f2f2;}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'sidebar content content content content';
+    
+  grid-gap: 10px;
+  
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
